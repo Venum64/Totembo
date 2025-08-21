@@ -1,0 +1,121 @@
+.leaders__text {
+    position: relative;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.leaders__h {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.leaders__text::after {
+    content: "";
+    margin: 20px auto 0;
+    height: 2px;
+    width: 1320px;
+    background: #323232;
+    display: block;
+}
+
+.leaders {
+    margin: 40px 0 60px;
+}
+
+.leaders__wrap {
+    display: grid;
+    gap: 40px 24px;
+    grid-auto-rows: 485px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.leaders__info {
+    background: #E1E1E1;
+    border-radius: 10px;
+    padding: 72px 0 40px;
+    position: relative;
+}
+
+.leaders__icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 20px;
+    right: 20px;
+}
+
+.leaders__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.leaders__item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.leaders__top-sale {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding: 14px 34px;
+    background: #323232;
+    border-radius: 10px;
+}
+
+.leaders__icons-link {
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px 15px;
+}
+
+.leaders__item-text_p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #323232;
+}
+
+.leaders__item-text_h {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    font-style: Bold;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1320px) {
+    .leaders__text::after {
+        content: "";
+        margin: 20px auto 0;
+        height: 2px;
+        width: 100%;
+        background: #323232;
+        display: block;
+    }
+}
+@media screen and (max-width:995px) {
+    .leaders__wrap{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .leaders__info{
+        width: 416px;
+    }
+    
+}
