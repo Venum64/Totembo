@@ -50,7 +50,11 @@
     align-items: center;
 }
 
-
+.card__item2{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 .card__top-sale {
     background: #323232;
     padding: 12px 40px;
@@ -91,8 +95,9 @@
     text-align: center;
 }
 
-.card__left-img1 img {
+.card__left-img1  {
     width: 100%;
+    max-width: 306px;
 }
 @media screen and (max-width:830px) {
     .card__wrap {
@@ -117,4 +122,18 @@
 
     }
     
+}
+@media screen and (max-width:546px) {
+    .card__item2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:405px) {
+    .card__info3{
+        padding: 74px 0 47px;
+    }
+    .card__info1{
+padding: 74px 0 47px;
+    }
 }
