@@ -12,6 +12,7 @@
     font-size: 30px;
     text-transform: uppercase;
     color: #000000;
+    font-family: var(--MR);
 }
 
 .news__text-p {
@@ -19,6 +20,7 @@
     font-weight: 400;
     font-size: 30px;
     color: #323232;
+    font-family: var(--MR);
 }
 
 .news_text::after {
@@ -51,9 +53,7 @@
     background: url(../img/braslets.png) no-repeat center/cover;
     height: 470px;
     border-radius: 10px;
-    padding: 0 60px;
-    display: flex;
-    align-items: center;
+    padding: 110px 60px 60px;
     position: relative;
 }
 
@@ -64,6 +64,9 @@
     background: #fff;
     padding: 14px 30px;
     border-radius: 10px;
+    font-family: var(--MR);
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .news__card-text {
@@ -76,13 +79,14 @@
     font-weight: 700;
     font-size: 22px;
     color: #fff;
+    font-family: var(--MB);
 }
 
 .news__card-text_p {
     font-weight: 400;
     font-size: 18px;
     color: #fff;
-
+    font-family: var(--MR);
 }
 
 .icon {
@@ -98,15 +102,14 @@
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
+    font-family: var(--MR);
 }
 
 .news__card2 {
     background: url(../img/wristwatch.png) no-repeat center/cover;
     height: 470px;
     border-radius: 10px;
-    padding: 0 60px;
-    display: flex;
-    align-items: center;
+    padding: 110px 60px 60px;
     position: relative;
 }
 
@@ -117,6 +120,10 @@
     background: #fff;
     padding: 14px 30px;
     border-radius: 10px;
+    font-family: var(--MR);
+    font-weight: 400;
+    text-transform: uppercase;
+
 }
 
 .news__card2-text {
@@ -129,13 +136,14 @@
     font-weight: 700;
     font-size: 22px;
     color: #fff;
+    font-family: var(--MB);
 }
 
 .news__card2-text_p {
     font-weight: 400;
     font-size: 18px;
     color: #fff;
-
+    font-family: var(--MR);
 }
 
 .icon2 {
@@ -151,6 +159,7 @@
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
+    font-family: var(--MR);
 }
 
 @media screen and (max-width:1320px) {
@@ -190,9 +199,10 @@
 }
 
 @media screen and (max-width:386px) {
-    .news__card1{
+    .news__card1 {
         padding: 0 20px;
     }
+
     .news__card-text {
         display: flex;
         flex-direction: column;
@@ -205,15 +215,17 @@
 }
 
 @media screen and (max-width: 356px) {
-    .news__card2{
-        padding: 0 20px ;
+    .news__card2 {
+        padding: 0 20px;
     }
-    .news__card2-text{
+
+    .news__card2-text {
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
-    .news__card2-text_p{
+
+    .news__card2-text_p {
         font-size: 16px;
     }
 }

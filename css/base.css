@@ -9,7 +9,8 @@
 
 :root {
     --bg: #fff;
-    --white: #fff;
+    --MR: "MR", sans-serif;
+    --MB: "MB", sans-serif;
 }
 
 .container {
@@ -18,4 +19,11 @@
     margin: 0 auto;
     padding: 0 15px;
     text-align: center;
+}
+
+body {
+    min-width: 320px;
+    font-family: var(--MR);
+    background: var(--bg);
+    color: #323232;
 }

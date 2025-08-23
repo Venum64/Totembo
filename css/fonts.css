@@ -1,1 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+    font-family: 'MB';
+    src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'MR';
+    src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
