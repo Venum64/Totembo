@@ -36,21 +36,13 @@
     content: "";
     margin: 20px auto 0;
     height: 2px;
-    width: 1320px;
+    max-width: 1320px;
+    width: 100%;
     background: #323232;
     display: block;
 }
 
-@media screen and (max-width:1320px) {
-    .header::after {
-        content: "";
-        margin: 20px auto 0;
-        height: 2px;
-        width: 100%;
-        background: #323232;
-        display: block;
-    }
-}
+
 
 @media screen and (max-width:1007px) {
     .header__nav {

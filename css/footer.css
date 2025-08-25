@@ -49,9 +49,6 @@ font-family: var(--MR);
     font-family: var(--MR);
 }
 
-.title {
-    margin-bottom: 20px;
-}
 
 .footer__nav-list3 {
     gap: 15px;
@@ -66,14 +63,24 @@ font-family: var(--MR);
     font-family: var(--MR);
 }
 
-.title2 {
-    margin-bottom: 40px;
+.footer__nav-list_item-link-3{
+     color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: var(--MR);
 }
 
 .title3 {
     margin-top: 40px;
 }
 
+.tel{
+    display: flex;
+    gap: 10px;
+}
+.footer__nav-list_item_3{
+    margin-top: 40px;
+}
 .footer__nav-list_item-3 {
     gap: 26px;
     display: flex;
@@ -92,5 +99,23 @@ font-family: var(--MR);
     .footer__nav-list_item-3 {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen  and (max-width:650px) {
+    .footer__nav{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .footer__nav-list_item-link-2{
+ font-weight: 600;
+    font-size: 27px;       
+    }
+
+    .footer__nav-list_item-link-3{
+        font-weight: 600;
+        font-size: 26px;
     }
 }
