@@ -25,7 +25,7 @@
     color: #fff;
     font-weight: 400;
     font-size: 18px;
-font-family: var(--MR);
+    font-family: var(--MR);
 }
 
 .footer__nav-list2 {
@@ -63,8 +63,8 @@ font-family: var(--MR);
     font-family: var(--MR);
 }
 
-.footer__nav-list_item-link-3{
-     color: #fff;
+.footer__nav-list_item-link-3 {
+    color: #fff;
     font-weight: 400;
     font-size: 22px;
     font-family: var(--MR);
@@ -74,13 +74,15 @@ font-family: var(--MR);
     margin-top: 40px;
 }
 
-.tel{
+.tel {
     display: flex;
     gap: 10px;
 }
-.footer__nav-list_item_3{
+
+.footer__nav-list_item_3 {
     margin-top: 40px;
 }
+
 .footer__nav-list_item-3 {
     gap: 26px;
     display: flex;
@@ -102,19 +104,19 @@ font-family: var(--MR);
     }
 }
 
-@media screen  and (max-width:650px) {
-    .footer__nav{
+@media screen and (max-width:650px) {
+    .footer__nav {
         display: flex;
         flex-direction: column;
         gap: 45px;
     }
 
-    .footer__nav-list_item-link-2{
- font-weight: 600;
-    font-size: 27px;       
+    .footer__nav-list_item-link-2 {
+        font-weight: 600;
+        font-size: 27px;
     }
 
-    .footer__nav-list_item-link-3{
+    .footer__nav-list_item-link-3 {
         font-weight: 600;
         font-size: 26px;
     }
