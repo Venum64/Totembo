@@ -164,7 +164,7 @@
 }
 
 
-@media screen and (max-width:705px) {
+@media screen and (max-width:822px) {
     .news__wrap {
         display: flex;
         flex-direction: column;
@@ -196,7 +196,9 @@
         gap: 15px;
     }
 
-   
+   .news__card-text_p {
+        font-size: 16px;
+    }
 }
 
 
